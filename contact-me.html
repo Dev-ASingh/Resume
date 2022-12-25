@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h3>My Contact Details</h3>
+    <ul>
+        <li>Address : </li>
+        <br>
+        <ul>
+            <li>D-2/496, Sector - L, Aashiyana <br>
+                Near Bangla Bazar, Lucknow, Uttar Pradesh <br>
+                INDIA, 226012.
+            </li>
+        </ul>
+        <br>
+        <li>Phone number : </li>
+        <br>
+        <ul>
+            <li>+91 9140129679</li>
+            <li>+91 8354840838</li>
+        </ul>
+        <br>
+        <li>Email me : </li>
+        <br>
+        <form action="mailto:Singh.96.768@gmail.com" method="post" enctype="text/plain">
+            <table cellspacing="10">
+                <tr>
+                    <td><label>Name :</label></td>
+                    <td><input type="text" placeholder="Enter your full name" name="Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Date of birth :</label></td>
+                    <td><input type="date" name="DOB" id=""></td>
+                </tr>
+                <tr>
+                    <td><label>Email address :</label></td>
+                    <td><input type="email" name="Email" id=""></td>
+                </tr>
+                <tr>
+                    <td><label>Contact number :</label></td>
+                    <td><input type="tel" name="Contact_No" id=""></td>
+                </tr>
+                <tr>
+                    <td><label>Upload resume :</label></td>
+                    <td><input type="file" name="Resume" id=""></td>
+                </tr>
+                <tr>
+                    <td>Approx salary expectation :</td>
+                    <td><input name="Salary_Expectation" type="range" min="1250000" max="2150000" step="10000" oninput="this.nextElementSibling.value = this.value"><output>1500000</output></td>
+                </tr>
+                <tr>
+                    <td><label>Password :</label></td>
+                    <td><input type="password" name="Password" id=""></td>
+                </tr>
+                <tr>
+                    <td>Subscibe to mailing list and receive updates :</td>
+                    <td><input type="checkbox" name="Subscribe_Mailing_List" id=""></td>
+                </tr>
+                <tr>
+                    <td><label>About yourself :</label></td>
+                    <td><textarea name="Applicant's_Introduction" id="" cols="100" rows="7"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right"><input type="submit" name="" id=""></td>
+                </tr>
+            </table>
+        </form>
+    </ul>
+</body>
+</html>
